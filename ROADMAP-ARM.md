@@ -31,10 +31,9 @@ this plan.
 
 ## Phase 2 — Platform shells
 
-- [ ] Android: app scaffold, touch controls, scoped-storage file handling,
-      Vulkan native.
+- [ ] Android: collaborate with [erickmendes22/iss_android](https://github.com/erickmendes22/iss_android) (FEXCore-based) rather than duplicating it — shared CPU-translation research, touch-control notes, and test data flow both ways.
 - [ ] macOS (Apple Silicon): MoltenVK renderer validation; interim Rosetta 2
-      build (Path C) as a stepping stone if useful.
+      build (Path C) as a stepping stone if useful. This is iss-arm's primary platform target alongside iOS.
 - [ ] iOS: only behind Path B; app scaffold, signing/sandbox/asset-delivery
       plan.
 - [ ] ARM64 CI for the portable parts (runtime, scripts); execution tests gated

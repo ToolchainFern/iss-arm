@@ -80,7 +80,7 @@ Apple Silicon, with Vulkan routed through MoltenVK.
 
 | Target | CPU translation | GPU | Platform shell | Notes |
 |---|---|---|---|---|
-| Android (ARM64) | Path A or B | Vulkan native | New: touch controls, scoped storage, app packaging | Largest tester base; Path A prototype feasible now |
+| Android (ARM64) | Path A or B — see sibling [erickmendes22/iss_android](https://github.com/erickmendes22/iss_android) (FEXCore-based); we collaborate, not duplicate | Vulkan native | New: touch controls, scoped storage, app packaging | Largest tester base; Path A prototype feasible now |
 | macOS (Apple Silicon) | Path A, B, or interim C | Vulkan → MoltenVK | macOS build of runtime + launcher | Watch: wave64/subgroup lowering vs Apple 32-wide SIMD groups; MoltenVK feature coverage vs the port's Vulkan 1.3 usage |
 | iOS | **Path B only** (no JIT) | Vulkan → MoltenVK | New: touch controls, sandbox, signing, ~33 GB asset delivery | Hardest target; static recomp is the gating item |
 | ARM64 Linux | Path A | Vulkan native | Existing scripts mostly reusable | Best contributor testbed |
