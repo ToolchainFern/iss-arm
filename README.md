@@ -1,3 +1,8 @@
+> **iss-arm — native ARM64 fork.** This is a research fork of [HayatoG/iss_pc](https://github.com/HayatoG/iss_pc) (native PC port of inFAMOUS Second Son) exploring native ARM64 support: **Android**, **macOS on Apple Silicon**, and **iOS**. Upstream remains the home of the x86-64 Windows/Linux port — this fork syncs from it regularly. Start with [docs/ARM64.md](docs/ARM64.md) (architecture investigation), [ROADMAP-ARM.md](ROADMAP-ARM.md), and [CONTRIBUTING.md](CONTRIBUTING.md). Maintained with AI assistance by ToolchainFern; **no game files, keys, firmware, or dumps are ever in this repo** — contributors use their own legally obtained copies.
+>
+> *[Issues](https://github.com/ToolchainFern/iss-arm/issues) — the pinned call-for-collaborators issue is the place to introduce yourself.*
+
+---
 <p align="center"><img src="port/packaging/icon/infamous-icon-1024.png" width="160" alt=""></p>
 
 <h1 align="center">inFAMOUS Second Son — native PC port</h1>
